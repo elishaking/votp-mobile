@@ -4,6 +4,8 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { DashoardPage } from '../pages/dashoard/dashoard';
+import { PresidentialPage } from '../pages/presidential/presidential';
+
 @Component({
   templateUrl: 'app.html'
 })
@@ -25,7 +27,7 @@ export class MyApp {
 
     this.pages = [
       { title: 'Dashboard', component: DashoardPage, icon: "calculator" },
-      // { title: 'History', component: HistoryPage, icon: "list-box" },
+      { title: 'Presidential', component: PresidentialPage, icon: "list-box" },
       // { title: 'Matrices', component: MatricesPage, icon: "grid" },
       // { title: 'Functions', component: FunctionsPage, icon: "pulse" }
     ];
