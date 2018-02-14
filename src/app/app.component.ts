@@ -13,7 +13,7 @@ import { CandidatesPage } from '../pages/candidates/candidates';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = PresidentialPage;
+  rootPage: any = CandidatesPage;
   pages: Array<{ title: string, component: any, icon: string }>;
   currentPage = [];
 
