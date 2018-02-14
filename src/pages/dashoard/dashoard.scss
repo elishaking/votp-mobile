@@ -1,3 +1,15 @@
 page-dashoard {
+    ion-card{
+        margin-bottom: 30px !important;
+    }
 
+    .card-footer{
+        padding: 2px 16px;
+        color: gray;
+    }
+
+    .card-header{
+        padding: 2px 16px;
+        font-size: 150%;
+    }
 }

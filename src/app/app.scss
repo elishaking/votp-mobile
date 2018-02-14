@@ -14,3 +14,22 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+.menu-header {
+    background: color($colors, primary);
+    height: 20vh;
+    margin-bottom: 2vh;
+    #title {
+      position: absolute;
+      margin: 0;
+      position: sticky;
+      top: 1000px;
+      margin-bottom: 5px;
+      margin-left: 16px;
+      color: color($colors, light);
+      font-weight: 400;
+    }
+  }
+  .menu-item-icon {
+    margin-right: 2vw;
+  }
