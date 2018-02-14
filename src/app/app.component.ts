@@ -12,7 +12,7 @@ import { PresidentialPage } from '../pages/presidential/presidential';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = DashoardPage;
+  rootPage: any = PresidentialPage;
   pages: Array<{ title: string, component: any, icon: string }>;
   currentPage = [];
 
