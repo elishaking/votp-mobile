@@ -5,6 +5,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { DashoardPage } from '../pages/dashoard/dashoard';
 import { PresidentialPage } from '../pages/presidential/presidential';
+import { CandidatesPage } from '../pages/candidates/candidates';
 
 @Component({
   templateUrl: 'app.html'
@@ -28,7 +29,7 @@ export class MyApp {
     this.pages = [
       { title: 'Dashboard', component: DashoardPage, icon: "calculator" },
       { title: 'Presidential', component: PresidentialPage, icon: "list-box" },
-      // { title: 'Matrices', component: MatricesPage, icon: "grid" },
+      { title: 'Matrices', component: CandidatesPage, icon: "grid" },
       // { title: 'Functions', component: FunctionsPage, icon: "pulse" }
     ];
 
